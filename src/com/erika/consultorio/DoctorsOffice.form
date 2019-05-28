@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.erika.consultorio.DoctorsOffice">
+  <grid id="27dc6" binding="doctorsView" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="562" height="448"/>
+    </constraints>
+    <properties>
+      <background color="-3881241"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="baf97" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="160" height="19"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="12"/>
+          <foreground color="-8953228"/>
+          <text value="Erika Yunuen Torres Torres 310886"/>
+        </properties>
+      </component>
+      <component id="21458" class="javax.swing.JTextField" binding="registerTxt">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3230805"/>
+          <font size="16"/>
+          <foreground color="-8953228"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="782a6" class="javax.swing.JTextField" binding="idTxt">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3230805"/>
+          <font size="16"/>
+          <foreground color="-8953228"/>
+        </properties>
+      </component>
+      <component id="9ab62" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-8953228"/>
+          <text value="ID"/>
+        </properties>
+      </component>
+      <component id="5b2eb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="160" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="12"/>
+          <foreground color="-8953228"/>
+          <text value="Luis Carlos Parra Mendoza 307718"/>
+        </properties>
+      </component>
+      <component id="d8963" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-8953228"/>
+          <text value="ID|Nombre|Edad|Fecha De Cita"/>
+        </properties>
+      </component>
+      <component id="a8fb3" class="javax.swing.JButton" binding="registerBtn">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3230805"/>
+          <font size="16"/>
+          <foreground color="-12164251"/>
+          <text value="Registrar nueva cita"/>
+        </properties>
+      </component>
+      <component id="b5fd6" class="javax.swing.JButton" binding="eraseBtn">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3230805"/>
+          <font size="16"/>
+          <foreground color="-12164251"/>
+          <text value="Borrar cita"/>
+        </properties>
+      </component>
+      <component id="40ede" class="javax.swing.JButton" binding="searchBtn">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3230805"/>
+          <font size="16"/>
+          <foreground color="-12164251"/>
+          <text value="Buscar cita"/>
+        </properties>
+      </component>
+      <component id="5fcba" class="javax.swing.JButton" binding="showBtn">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3230805"/>
+          <font size="16"/>
+          <foreground color="-12164251"/>
+          <text value="Estudiantes Registrados"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
